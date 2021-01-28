@@ -1,0 +1,26 @@
+server:
+  port: 8101
+#mybatis的配置
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  config-location: classpath:mybatis/mybatisconfig.xml
+  #. type-aliases-package: com.liu.pojo
+
+spring:
+  application:
+    name: springcloud-provider-user
+  datasource:
+    driver-class-name: org.gjt.mm.mysql.Driver
+    url: jdbc:mysql://localhost:3306/testdb?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+  instance:
+    instance-id: spring-provider-dapt-8100
+    #info配置
+info:
+  app.name: liuSpring
+  company.name: at1001
