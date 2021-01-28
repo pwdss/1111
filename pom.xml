@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.liu</groupId>
     <artifactId>testdemo</artifactId>
-    <packaging>pom</packaging>
+
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>spring-eureka-7001</module>
@@ -16,7 +16,7 @@
     <name>testdemo</name>
     <description>Demo project for Spring Boot</description>
     <!--打包方式-->
-
+    <packaging>pom</packaging>
     <!--版本号-->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
