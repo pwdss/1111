@@ -7,4 +7,5 @@ import java.util.List;
 public interface UserSerivce {
     //用户查询方法
     public List<User> getuserlist();
+    public void InfoMail(User user);
 }
